@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class PlayerController : MonoBehaviour
+public class Walker_leader_red : MonoBehaviour
 {
  private Rigidbody rb; 
 
@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
  void SetCountText() 
     {
-        countText.text = "Count: " + count.ToString();
+        countText.text = "Red: " + count.ToString();
 
  if (count >= 12)
         {
